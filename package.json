@@ -1,0 +1,20 @@
+{
+  "name": "couchnacl",
+  "version": "1.0.0",
+  "description": "Use TweetNaCl.js from inside CouchDB",
+  "main": "couchnacl.js",
+  "scripts": {
+    "test": "npm run build && tap test/*-test.js",
+    "build": "cat lib/crypto-stub.js node_modules/tweetnacl/nacl.js node_modules/couch64/couch64.js lib/nacl-monkey.js > couchnacl.js"
+  },
+  "author": "Johannes J. Schmidt",
+  "license": "MIT",
+  "dependencies": {
+    "couch64": "^1.0.1",
+    "tweetnacl": "^0.11.2"
+  },
+  "devDependencies": {
+    "nano": "^5.10.0",
+    "tap": "^0.4.12"
+  }
+}
