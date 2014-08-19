@@ -1,6 +1,6 @@
 {
   "name": "couchnacl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use TweetNaCl.js from inside CouchDB",
   "main": "couchnacl.js",
   "scripts": {
@@ -16,5 +16,6 @@
   "devDependencies": {
     "nano": "^5.10.0",
     "tap": "^0.4.12"
-  }
+  },
+  "license": "Public domain"
 }

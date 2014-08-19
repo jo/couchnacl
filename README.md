@@ -38,6 +38,6 @@ shows: {
 ```
 
 # License
-Donno. MIT?
+Public domain
 
 (c) 2014 Johannes J. Schmidt
