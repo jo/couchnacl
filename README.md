@@ -1,6 +1,8 @@
 # couchnacl
 Use TweetNaCl.js from inside CouchDB.
 
+[![Build Status](https://travis-ci.org/jo/couchnacl.svg?branch=master)](https://travis-ci.org/jo/couchnacl)
+
 ## Usage
 ```js
 shows: {
